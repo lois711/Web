@@ -1,2 +1,2 @@
-# Web
-Semana 3, ejercicio en clase Biografía. Asignación Homepage HTML.
+# Semana 3,
+Ejercicio en clase Biografía. Asignación Homepage HTML.
