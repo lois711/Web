@@ -1,0 +1,121 @@
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color:#8f4c54;
+
+}
+
+header {
+	width: 100%;
+	padding:3%;
+}
+
+h1 {
+	font-family: 'Amatica SC', cursive;
+	font-size: 4em;
+	color:#ffffff;
+}
+
+h2 {
+	font-family: 'Amatica SC', cursive;
+	font-size: 1.6em;
+	color: #e5d2d4;
+}
+
+#titulito{
+     margin-bottom: 3%;
+     margin-top: 3%;
+}
+
+#frutita {
+	 -webkit-animation-name: frutita;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 50;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+section {
+	border:5px inset #b74a57;
+	background-color: #610e1f;
+	padding:2%;
+	margin-bottom:5%; 
+}
+
+.imagen1 {
+	float:left;
+	margin-left:9%;
+	margin-right: 8%;
+	margin-top: 5%;
+}
+
+.parrafo {
+	float: left;
+	width: 40%;
+	text-align: center;
+	font-family: 'Amatica SC', cursive;
+	font-size: 1.50em;
+	color:#ffffff;
+	margin-bottom: 6%;
+	margin-top: 4%;
+}
+
+.imagen2 {
+	clear:both;
+	margin-top: 6%;
+
+}
+
+@-webkit-keyframes frutita {
+	
+	0% {
+		transform: rotate(45deg);
+	}
+
+	50% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(-45deg);
+	}
+}	
+
+@media screen and (max-width:700px) {
+
+    #wrapper {
+    	width: 600px;
+    	margin-left: 8%
+
+    }
+   header {
+      width: 70%;
+	}
+
+	section {
+		width: 70%;
+	}
+
+	.imagen1{
+		width: 80%;
+		float: none;
+        margin-left:25%;
+	    margin-right: 8%;
+	    margin-top: 5%;
+	}
+
+	.parrafo {
+		width: 80%;
+		float: none;
+		text-align: center;
+		margin-left: 10%;
+
+	}
+
+	.imagen2 {
+		display: none;
+		
+		}
+
+
+}
