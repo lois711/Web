@@ -1,2 +1,2 @@
 #Semana 6
-Proyecto libre: Dragon Fruit. Cursos Extra Code Academy.
+Proyecto libre utilizando CSS3: Dragon Fruit. Cursos Extra Code Academy.
