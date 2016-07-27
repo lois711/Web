@@ -1,0 +1,197 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Poiret One', cursive;
+	background: linear-gradient(#3E9FBA, #ffffff)
+
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+	-webkit-animation-name: title;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: 50;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+p {
+	font-size: 1.5625em;
+}
+
+
+header {
+	margin: 0 auto; 
+	clear: both;
+	text-align: center;
+	padding: 5%;
+
+}
+
+.bigphoto {
+	width: 800px;
+	margin: 0 auto;
+	padding:3%;
+
+}
+.sec1 {
+	float: left;
+	width: 900px;
+	margin: 0 auto;
+	padding: 3%;
+
+}
+#faces {
+	float: left;
+	width: 300px;
+	margin: 2%;
+}
+
+#par1 {
+	float: left;
+	width: 500px;
+	margin: 3%;
+}
+
+.sec2{
+	float: left;
+	width: 900px;
+	margin: 0 auto;
+	padding: 3%;
+
+}
+#par2 {
+	float: left;
+	width: 500px;
+	margin: 3%;
+}
+
+#stone {
+	float: left;
+	width: 300px;
+	margin: 2%;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	width: 800px;
+	padding: 6%;
+}
+
+@-webkit-keyframes title {
+	
+	0% {
+		color: #ffffff;
+	}
+
+    20% {
+    	color: #94D4E6;
+    }
+	40% {
+		color: #62B9D1;
+	}
+
+	60% {
+		color: #218AA8;
+	}
+
+	80% {
+		color: #07718F;
+	}
+
+	100% {
+		color: #0A3F4E;
+    }
+
+}
+
+@media 	screen and (max-width: 600px) {
+
+body {
+    width: 500px;
+	margin: 0 auto;
+	font-family: 'Poiret One', cursive;
+	background: linear-gradient(#ffffff, #3E9FBA);
+
+
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+	-webkit-animation-name: title;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: 50;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+
+p {
+	font-size: 1.2em;
+}
+
+
+header {
+	margin: 0 auto; 
+	clear: both;
+	text-align: center;
+	
+
+}
+
+.bigphoto {
+	display: none;
+
+}
+.sec1 {
+	float: none;
+	width: 400px;
+	padding-left: 18%;
+}
+
+#faces {
+	float: none;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#par1 {
+	float: none;
+	width: 300px;
+	
+}
+
+.sec2{
+	float: left;
+	width: 400px;
+	margin: 0 auto;
+	padding-left: 19%
+	
+
+}
+#par2 {
+	float: none;
+	width: 300px;
+	
+}
+
+#stone {
+	float: none;
+	width: 300px;
+	
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	width: 300px;
+	padding-left: 18%
+	
+}
+
+}
