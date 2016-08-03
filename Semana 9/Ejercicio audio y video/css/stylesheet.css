@@ -1,0 +1,65 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	padding: 3%;;
+    background: #570404;
+    color: #FF8825;
+
+}
+
+header {
+	width: 700px;;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+header h1 {
+	margin: 3%;
+	font-family: 'Sacramento', cursive;
+	font-size: 5em;
+}
+
+header h2 {
+	margin: 1%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+}
+
+header audio {
+	padding: 2%;
+
+}
+
+section {
+	width: 300px;
+	padding: 7%;
+	float: left;
+}
+
+section h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	padding: 2%;
+}
+
+section small {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	padding: 2%;
+}
+
+iframe {
+	padding: 3%;
+}
+
+footer {
+	clear: both;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	margin: 0 auto;
+}
+
+
+
+
+
