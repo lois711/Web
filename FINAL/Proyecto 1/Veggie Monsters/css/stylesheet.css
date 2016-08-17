@@ -282,21 +282,78 @@ footer {
 	}
 }
 
+                                           /*MOBILE */
 
 @media 	screen and (max-width: 700px) {
-
-	body {
-		width: 600px;
-		margin: 0 auto;
-		background: linear-gradient(to right, #d9f0cb, #ffffff);
+    
+    body {
+	 width: 600px;
+	 margin: 0 auto;
+	 background: linear-gradient(to right, #d9f0cb,#ffffff);
     }
+
+    header {
+	 clear: both;
+	 margin: auto;
+	 padding: 3%;
+    }
+
+    header img {
+	 width: 200px;
+    }
+
+
+
+    section {
+	 float: left;
+    }
+
+	#center {
+	 width: 600px;
+	 height: 500px;
+	}
 
     nav a {
-       float: none;
-       display: inline-block;
-       float: left;
+	 width: 200px;
+	 text-decoration: none;
+	 color: #1c1c23;
+	 font-size: 3em;
+	 background-color: #c0ce72;
+	 padding: 1% 1%;
+	 border-radius: 5px;
+	 text-align: center;
+	 font-family: 'Advent Pro', sans-serif;  
+	 margin: 3%;
+	 margin: 0 auto;
     }
 
+    #back {
+	width: 200px;
+	text-decoration: none;
+	color: #1c1c23;
+	font-size: 3em;
+	background-color: #b55eab;
+	padding: 1% 1%;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Advent Pro', sans-serif;  
+	margin: 0 auto;
+	display: block;
+}
+
+    .buttons {
+	 float: left;
+	 width: 600px;
+    }
+
+    #center a, #centermenu a, #centerspecials a {
+	 font-size: 2em;
+    }
+
+    #centermenu, #centerspecials {
+    	height: 700px;
+    	background-size: 800px;
+    }
 
 }
 
