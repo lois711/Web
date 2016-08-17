@@ -34,7 +34,6 @@ a:hover {
 	width: 700px;
 	padding: 2%;
 	border: 1px solid #000000;
-	
 }
 
 #section1 img {
@@ -129,6 +128,146 @@ footer {
 	clear: both;
 }
 
+                                             /*CONTACT */
+
+#section4 {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 4%;
+}
+
+#section4 h1 {
+	font-family: 'Unica One', cursive;
+	font-size: 2em;
+}   
+
+#section4 h2 {
+	font-size: 1.5em;
+	padding: 2%;
+}  
+
+#section4 h3 {
+	font-size: 3em;
+	padding: 1%;
+	-webkit-animation-name: number;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: number;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction:alternate;
+    -moz-animation-timing-function: ease-in-out;
+}  
+
+@-webkit-keyframes number {
+	
+	0% {
+		text-shadow: 1px 2px #ffffff; 
+	}
+
+	50% {
+		text-shadow: 1px 2px #ba3f70;
+	}
+
+	100% {
+		text-shadow: 1px 2px #f1a0b7;
+	}
+}   
+
+@-moz-keyframes number {
+	
+		0% {
+		text-shadow: 1px 2px #ffffff; 
+	}
+
+	50% {
+		text-shadow: 1px 2px #ba3f70;
+	}
+
+	100% {
+		text-shadow: 1px 2px #f1a0b7;
+	}
+} 
+
+#section4 img {
+	width: 250px;
+	margin: 4%;
+}
+
+
+                                  /*BUY*/
+.section5 {
+	width: 900px;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+.section6, .section7, .section8, .section9, .section10 {
+	float: left;
+	width: 400;
+	margin: 0 auto;
+	padding: 3%;
+}
+
+.section5 img {
+	width: 350px;
+}
+
+.section5 h1 {
+     padding: 3%;
+     font-size: 1.6em;
+}
+
+.section5 p {
+	font-size: 3em;
+	text-shadow: 1px 2px #ffffff;
+	padding: 2%;
+	-webkit-animation-name: cent;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: cent;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction:alternate;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes cent {
+	
+	0% {
+		text-shadow: 1px 3px #ba3f70; 
+	}
+
+	50% {
+		text-shadow: 1px 3px #000000;
+	}
+
+	100% {
+		text-shadow: 1px 3px #f1a0b7;
+	}
+}   
+
+@-moz-keyframes cent {
+	
+		0% {
+		text-shadow: 1px 3px #ba3f70; 
+	}
+
+	50% {
+		text-shadow: 1px 3px #000000;
+	}
+
+	100% {
+		text-shadow: 1px 3px #f1a0b7;
+	}
+} 
+
+
                                               /*MOBILE*/
 @media screen and (max-width: 700px) {
 
@@ -179,7 +318,7 @@ footer {
 	padding: 4%;
 }
 
-                      /*ABOUT*/
+                                         /*ABOUT MOBILE*/
 
 #section2 {
 	width: 500px;
@@ -243,3 +382,57 @@ footer {
 	margin: 0 auto;
 	clear: both;
 }
+
+
+                                             /*CONTACT MOBILE*/
+
+#section4 {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 4%;
+	border: 1px dotted #ffffff;
+}
+
+#section4 h1 {
+	font-family: 'Unica One', cursive;
+	font-size: 2.5em;
+
+}   
+
+#section4 h2 {
+	font-size: 1.5em;
+	padding: 2%;
+}  
+
+#section4 h3 {
+	font-size: 3em;
+	padding: 1%;
+}	 
+
+#section4 img {
+	width: 270px;
+	margin: 4%;
+}
+ 
+                                             /*BUY MOBILE*/
+.section5 {
+	width: 500px;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+.section6, .section7, .section8, .section9, .section10 {
+	float: none;
+	width: 400;
+	margin: 0 auto;
+	padding: 3%;
+}
+
+.section5 img {
+	width: 350px;
+}
+
+
+
+
