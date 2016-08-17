@@ -1,0 +1,245 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+	padding: 3%;
+	background: #e2e2e2;
+	font-family: 'Poiret One', cursive;
+}
+
+header img {
+	width: 300px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 2%;
+}
+
+a {
+	color: #ba3f70;
+	text-decoration: none;
+	text-shadow: 1px 2px #ffffff;
+	font-size: 1.5em;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #000000;
+	text-shadow: none;
+}
+
+#section1 {
+	margin: 0 auto;
+	font-size: 2em;
+	width: 700px;
+	padding: 2%;
+	border: 1px solid #000000;
+	
+}
+
+#section1 img {
+	width: 500px;
+	padding: 3%;
+}
+
+#section1 a {
+	font-size: 0.6em;
+	padding: 2%;
+	text-align: center;
+
+}
+
+footer {
+	margin: 0 auto;
+	font-size: 0.6em;
+	clear: both;
+	text-align: center;
+	padding: 4%;
+}
+
+                      /*ABOUT*/
+
+#section2 {
+	width: 600px;
+	margin:0 auto;
+	padding: 3%;
+	text-shadow: 1px 1px #ffffff;
+	text-align: center;
+	
+}
+
+#section2 h1 {
+	padding: 2%;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Unica One', cursive;
+}
+
+.aboutp {
+	font-size: 2em;
+	line-height: 120%;
+}
+
+#section3 {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+}
+
+#section3 ul li {
+	border: 1px solid #000000;
+	padding: 4%;
+	margin-top: 4%;
+	margin-bottom: 5%;
+	
+
+}
+
+#section3 h1 {
+	font-family: 'Unica One', cursive;
+	font-size: 1.7em;
+	text-shadow: 1px 2px #ffffff;
+}
+
+.anni {
+	width: 225px;
+	float: left;
+	font-size: 1em;
+	margin-right: 1%;
+}
+
+#section3 .anni img {
+	width: 150px;
+}
+
+.mella {
+	width: 225px;
+	float: left;
+	font-size: 1em;
+}
+
+#section3 .mella img {
+	width: 150px;
+}
+
+#section3 img {
+	width: 600px;
+	padding: 3%;
+	margin: 0 auto;
+	clear: both;
+}
+
+                                              /*MOBILE*/
+@media screen and (max-width: 700px) {
+
+body {
+	width: 500px;
+}
+
+header img {
+	width: 300px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 3%;
+}
+
+a {
+	font-size: 2em;
+}
+
+
+#section1 {
+	margin: 0 auto;
+	font-size: 2.5em;
+	width: 400px;
+	padding: 5%;
+	border: 1px solid #000000;
+	
+}
+
+#section1 img {
+	width: 350px;
+	padding: 4%;
+}
+
+#section1 a {
+	font-size: 0.7em;
+	padding: 1%;
+	text-align: center;
+
+}
+
+footer {
+	margin: 0 auto;
+	font-size: 0.6em;
+	clear: both;
+	text-align: center;
+	padding: 4%;
+}
+
+                      /*ABOUT*/
+
+#section2 {
+	width: 500px;
+	margin:0 auto;
+	padding: 3%;
+	text-shadow: 1px 1px #ffffff;
+	text-align: center;
+	
+}
+
+#section2 h1 {
+	padding: 2%;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Unica One', cursive;
+
+
+}
+
+.aboutp {
+	font-size: 2em;
+	line-height: 120%;
+}
+
+#section3 {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+}
+
+
+
+#section3 h1 {
+	font-size: 1.7em;
+}
+
+.anni {
+	width: 500px;
+	float: none;
+	font-size: 1.6em;
+	margin-right: 1%;
+}
+
+#section3 .anni img {
+	width: 200px;
+}
+
+.mella {
+	width: 500px;
+	float: none;
+	font-size: 1.6em;
+}
+
+#section3 .mella img {
+	width: 200px;
+}
+
+#section3 img {
+	width: 300px;
+	padding: 3%;
+	margin: 0 auto;
+	clear: both;
+}
